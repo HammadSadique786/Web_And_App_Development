@@ -2,11 +2,20 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>My Speed Test</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>MY NAME IS HAMMAD</h1>  
+    <div class="container">
+        <h1>Internet Speed Test</h1>
+        <div class="gauge" id="gauge">
+            <div class="gauge‑fill" id="gaugeFill"></div>
+            <div class="gauge‑text" id="gaugeText">0 Mbps</div>
+        </div>
+        <button id="startBtn">Start Test</button>
+        <div class="result" id="result"></div>
+    </div>
 
+    <script src="script.js"></script>
 </body>
-</html>   
+</html>
